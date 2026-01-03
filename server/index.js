@@ -316,7 +316,7 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   default: home
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/Todo_appassets/entry.client-wMV1gpTa.js", "imports": ["/Todo_appassets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/Todo_appassets/root-D8PII2SA.js", "imports": ["/Todo_appassets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": ["/Todo_appassets/root-BKKU3rSV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/Todo_appassets/home-Ia2ozE7n.js", "imports": ["/Todo_appassets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/Todo_appassets/manifest-8730304b.js", "version": "8730304b", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/Todo_app/assets/entry.client-wMV1gpTa.js", "imports": ["/Todo_app/assets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/Todo_app/assets/root-D8PII2SA.js", "imports": ["/Todo_app/assets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": ["/Todo_app/assets/root-BKKU3rSV.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/Todo_app/assets/home-Ia2ozE7n.js", "imports": ["/Todo_app/assets/chunk-WWGJGFF6-DaTaPSdi.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/Todo_app/assets/manifest-44197b38.js", "version": "44197b38", "sri": void 0 };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false, "unstable_subResourceIntegrity": false, "v8_middleware": false, "v8_splitRouteModules": false, "v8_viteEnvironmentApi": false };
@@ -324,7 +324,7 @@ const ssr = true;
 const isSpaMode = false;
 const prerender = [];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
-const publicPath = "/Todo_app";
+const publicPath = "/Todo_app/";
 const entry = { module: entryServer };
 const routes = {
   "root": {
