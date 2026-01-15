@@ -1,8 +1,9 @@
-import { TodoApp } from "components/TodoApp";
+import { List } from "components/List";
+
 function Home() {
   return (
     <div>
-      <TodoApp />
+      <List />
     </div>
   );
 }
